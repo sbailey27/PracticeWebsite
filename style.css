@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_links ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.nav_bar a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+    background-color: black;
+}
