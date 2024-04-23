@@ -53,9 +53,11 @@
     position: absolute;
     top: 5px;
     right: 15px;
-    padding: 3px 3px 0px 3px;
+    padding: 3px 3px 0 3px;
     cursor: pointer;
 }
+
+
 
 /*.nav_bar
 {
