@@ -9,8 +9,14 @@
     list-style-type: none;
     display: block;
     padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
+.nav_links ul li:last-child
+{
+    padding-bottom: 20px;
+}
 .nav_bar a
 {
     text-decoration: none;
@@ -19,15 +25,25 @@
 
 .nav_bar
 {
-    background-color: black;
+    background-color: #0b051b;
     overflow: hidden;
     position: relative;
     padding: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav_links
 {
     display: none;
+    z-index: 5;
+    background-color: black;
+    position: fixed;
+    top: 30px;
+    right: 0;
+    width: 100%;
 }
 
 .menu_icon
@@ -35,8 +51,8 @@
     background-color: lightgray;
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 15px;
     padding: 3px 3px 0px 3px;
     cursor: pointer;
 }
